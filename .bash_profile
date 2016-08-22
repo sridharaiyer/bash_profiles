@@ -9,6 +9,15 @@
 
 #  ---------------------------------------------------------------------------
 #
+#  Description:  Adding aliases
+#
+    alias python="python3"
+    alias pip="pip3"
+#
+#  ---------------------------------------------------------------------------
+
+#  ---------------------------------------------------------------------------
+#
 #  Description:  Loads the RVM profile file
 #
 	source ~/.profile
@@ -42,7 +51,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="/usr/local/bin:/usr/local/git/bin:/sw/bin/:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:/anaconda3/bin:$PATH"
+    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/anaconda3/bin"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
