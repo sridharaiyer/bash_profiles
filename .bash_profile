@@ -8,7 +8,10 @@
   #export PS1='\e[0;36m\W$(__git_ps1)\$ \e[m'
 
 #  ---------------------------------------------------------------------------
-#
+#  Set JAVA HOME
+	
+	export JAVA_HOME=$(/usr/libexec/java_home)
+#  ---------------------------------------------------------------------------
 #  Description:  Adding aliases
 #
     alias python="python3"
@@ -51,7 +54,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/anaconda3/bin"
+    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/anaconda3/bin:$JAVA_HOME/bin"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
