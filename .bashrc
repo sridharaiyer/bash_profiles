@@ -106,3 +106,9 @@ else \
 fi)'
 
 source /usr/local/etc/bash_completion.d/git-prompt.sh
+
+#   ------------------------------------------------------------
+#   Set Path of the folder containing my Shell Scripts
+#   ------------------------------------------------------------
+
+export PATH="$PATH:~/Documents/SriShellScripts"
