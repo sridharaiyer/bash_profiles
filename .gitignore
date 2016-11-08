@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# Ignore everything
-*
-
-!.bash_profile
-!.bashrc
-!.profile
-!.gitignore
-=======
 # Blacklist files/folders in same directory as the .gitignore file
 /*
 
@@ -15,4 +6,3 @@
 !.bash_profile
 !.bashrc
 !.profile
->>>>>>> 5d303f0efdec6a5c3b34773c6994c4e13b2eeab4
