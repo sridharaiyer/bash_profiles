@@ -1,4 +1,12 @@
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+#  ---------------------------------------------------------------------------
+#  Set Ruby
+	export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+	[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# #  ---------------------------------------------------------------------------
+# #  Set Virtualenv
+#     export WORKON_HOME=$HOME/.virtualenvs   # optional
+#     export PROJECT_HOME=$HOME/projects      # optional
+#     source /usr/local/bin/virtualenvwrapper.sh

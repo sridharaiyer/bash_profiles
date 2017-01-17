@@ -18,8 +18,12 @@
     alias pip="pip3"
 #
 #  ---------------------------------------------------------------------------
-
-#  ---------------------------------------------------------------------------
+#  Set Virtualenv
+    export WORKON_HOME=$HOME/.virtualenvs   # optional
+    export PROJECT_HOME=$HOME/projects      # optional
+    export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.6
+    source /usr/local/bin/virtualenvwrapper.sh
+# ---------------------------------------------------------------------------
 #
 #  Description:  Loads the RVM profile file
 #
