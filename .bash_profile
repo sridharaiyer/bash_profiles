@@ -1,4 +1,4 @@
-      if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  if [ -f $(brew --prefix)/etc/bash_completion ]; then
   	. $(brew --prefix)/etc/bash_completion
   fi
   bind "set completion-ignore-case on"
