@@ -369,3 +369,6 @@ downloadYouTubeAudios(){
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
+
+# added by Anaconda3 4.3.0 installer
+export PATH="/Users/sridhariyer/anaconda/bin:$PATH"
