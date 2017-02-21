@@ -61,7 +61,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/anaconda3/bin:$JAVA_HOME/bin"
+    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/Users/sridhariyer/anaconda/bin:$JAVA_HOME/bin"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
@@ -370,5 +370,5 @@ downloadYouTubeAudios(){
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
-# added by Anaconda3 4.3.0 installer
-export PATH="/Users/sridhariyer/anaconda/bin:$PATH"
+# added by Anaconda3 4.3.0 installer  -->> Moved this to the PATH variable in the beginning
+# export PATH="/Users/sridhariyer/anaconda/bin:$PATH"
