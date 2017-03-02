@@ -61,7 +61,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/Users/sridhariyer/anaconda/bin:$JAVA_HOME/bin"
+    export PATH="/usr/local/opt/openssl/bin:$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/Users/sridhariyer/anaconda/bin:$JAVA_HOME/bin"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
