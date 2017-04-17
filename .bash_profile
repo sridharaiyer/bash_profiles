@@ -63,6 +63,9 @@
 #   ------------------------------------------------------------
     export PATH="/usr/local/opt/openssl/bin:$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/Users/sridhariyer/anaconda/bin:$JAVA_HOME/bin"
 
+    export ORACLE_HOME="$HOME/Applications/oracle/instantclient_12_1"
+    export DYLD_LIBRARY_PATH="$ORACLE_HOME:$DYLD_LIBRARY_PATH"
+
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
     export EDITOR=/usr/bin/nano
