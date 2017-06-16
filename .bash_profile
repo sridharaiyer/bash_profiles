@@ -7,6 +7,8 @@
   GIT_PS1_SHOWDIRTYSTATE=true
   #export PS1='\e[0;36m\W$(__git_ps1)\$ \e[m'
 
+  export BROWSER=open
+
 #  ---------------------------------------------------------------------------
 #  Set JAVA HOME
 	
