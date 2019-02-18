@@ -61,7 +61,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="/usr/local/opt/openssl/bin:$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:/Users/sridhariyer/anaconda/bin:$JAVA_HOME/bin"
+    export PATH="/usr/local/opt/openssl/bin:$PATH:/usr/local/git/bin:/sw/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin::$JAVA_HOME/bin"
 
     export ORACLE_HOME="$HOME/Applications/oracle/instantclient_12_1"
     export DYLD_LIBRARY_PATH="$ORACLE_HOME:$DYLD_LIBRARY_PATH"
@@ -371,7 +371,8 @@ downloadYouTubeAudios(){
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
 
-# added by Anaconda3 4.3.0 installer  -->> Moved this to the PATH variable in the beginning
-# export PATH="/Users/sridhariyer/anaconda/bin:$PATH"
+# For Conda 4.4 onward
+export PATH
+. /Users/sridhariyer/anaconda/etc/profile.d/conda.sh
+conda activate
