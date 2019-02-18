@@ -7,6 +7,8 @@
   GIT_PS1_SHOWDIRTYSTATE=true
   #export PS1='\e[0;36m\W$(__git_ps1)\$ \e[m'
 
+  export BROWSER=open
+
 #  ---------------------------------------------------------------------------
 #  Set JAVA HOME
 	
@@ -365,11 +367,10 @@ downloadYouTubeAudios(){
     done < "$1"
 }
 
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
 # Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 
 # For Conda 4.4 onward
