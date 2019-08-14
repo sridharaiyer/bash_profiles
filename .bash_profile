@@ -377,3 +377,9 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 . /Users/sridhariyer/anaconda/etc/profile.d/conda.sh
 conda activate
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sridhariyer/google-cloud-sdk/path.bash.inc' ]; then . '/Users/sridhariyer/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sridhariyer/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/sridhariyer/google-cloud-sdk/completion.bash.inc'; fi
